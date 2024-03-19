@@ -20,12 +20,9 @@ def check_winner(user_bids):
 
 while True:
 
-    #Ask for name input
+    #Ask for name and bid inputs
     bidder_name = input(f"What is your name? ")
-
-    #Ask for bid amount
     bid = int(input(f"How much do you want to bid?  $"))
-
 
     #Add inputs to dictionary
     bidders = {}

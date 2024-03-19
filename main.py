@@ -37,7 +37,7 @@ while True:
         check_winner(bidders)
         break
     else:
-        
+        #Clear screen
         os.system('cls||clear')
         continue
 
